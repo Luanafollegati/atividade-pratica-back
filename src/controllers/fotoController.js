@@ -1,5 +1,5 @@
-import fs from 'fs/promisses';
-import AlunoModel from '../models/AlunoModel';
+import fs from 'fs/promises';
+import AlunoModel from '../models/AlunoModel.js';
 import { processarFoto, removerFoto } from '../utils/fotoHelper.js';
 
 export const verFoto = async (req, res) => {
